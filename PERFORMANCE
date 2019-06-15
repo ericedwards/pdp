@@ -1,0 +1,10 @@
+Here's a vague idea of the simulation speed for a sample code
+mix (these should be treated as peak numbers):
+
+DEC VAX-11/780 4.3BSD			  8
+Sun Sparc IPC SunOS 4.1.3		116
+Motorola VME187 25Mhz 88100 SVR4	176
+Sun Sparc 2 SunOS 4.1.3			203
+IBM RS6000/950 AIX 2.3			313
+Motorola VME197 50Mhz 88110 SVR4	529
+

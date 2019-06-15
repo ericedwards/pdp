@@ -1,0 +1,24 @@
+This is the first released version of my PDP-11 simulator.  I've been running
+2.9BSD on it for a while.  It should run on most BSD-like 32-bit Unix machines
+with little or no modification.
+
+Compilation Hints:
+
+	check the makefile for compiler paths and options
+	look in defines.h for machine dependent stuff
+	main.c has some ifdefs to get around stupid compilers
+
+The User Interface:
+
+	e <address>	edit memory
+	d <address>	dump memory
+	r		register dump
+	g [address]	start execution
+	s [address]	single step
+
+
+Feel free to let me know about any bugs, errors, or modifications...  Enjoy!!
+
+			Eric A. Edwards
+			mag@potter.csh.rit.edu
+

@@ -1,0 +1,39 @@
+1. Find a 2.9BSD distribution tape.  This is _not_ public domain software.
+   Please be sure you have all the required licenses.
+
+2. Use the following commands to extract the first few files from the tape:
+   (substitute the name of your tape device, if different)
+
+	unix% dd if=/dev/nrmt0 of=TAPE.0 bs=512
+	49+0 records in
+	49+0 records out
+	unix% dd if=/dev/nrmt0 of=TAPE.1 bs=1k
+	10+0 records in
+	10+0 records out
+	unix% dd if=/dev/nrmt0 of=TAPE.2 bs=1k
+	1+0 records in
+	1+0 records out
+	unix% dd if=/dev/nrmt0 of=TAPE.3 bs=1k
+	26+0 records in
+	26+0 records out
+	unix% dd if=/dev/nrmt0 of=TAPE.4 bs=1k
+	25+0 records in
+	25+0 records out
+	unix% dd if=/dev/nrmt0 of=TAPE.5 bs=1k
+	24+0 records in
+	24+0 records out
+	unix% dd if=/dev/nrmt0 of=TAPE.6 bs=10k
+	217+0 records in
+	217+0 records out
+
+3. Make a drive to load the distribution on, it will simulate an RL01. 
+
+	unix% mkrl
+
+4. Start the simulator... and follow the 2.9 installation guide.
+
+	unix% pdp
+	% g 173200
+
+	40Boot
+	:
