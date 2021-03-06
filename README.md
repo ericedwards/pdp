@@ -3,8 +3,7 @@ PDP
 
 My original PDP-11 emulator.  Although it runs 2.9BSD, there are a number of inaccuracies
 in the instruction emulation and the interrupt/event handing is a hack to make UNIX run.
-I recommend using Bob Supnik's excellent [SIMH](https://github.com/simh/simh) for
-your PDP-11 emulation needs.
+I recommend using Bob Supnik's excellent [SIMH](https://github.com/simh/simh) for PDP-11 emulation.
 
 ## From the original README:
 
@@ -16,7 +15,8 @@ with little or no modification.
 
 My best guess is I worked on this from 1992-1994, eventually releasing it in 1994.
 There was a PDP-11/34A at [Computer Science House](https://www.csh.rit.edu/)
-that I wanted to get up again and running 2.9BSD.  Disk storage was the main problem,
+that I wanted to get working again and running 2.9BSD.  
+Disk storage was the main problem,
 CSH no longer had any Unibus controller / disk combinations that were usable.
 
 I decided to build a controller that used a modern 3-1/2" drive.
@@ -31,12 +31,11 @@ and got interested in UCSD Pascal and the LSI-11 based Terak.  Some searching an
 I bumped into this SourceForge project:
 [bk-terak-emu](http://bk-terak-emu.sourceforge.net/).
 Leonid Broukhis enormously extended my original emulator to support the
-Elektronika BK-0010 family and had thoughts of supporting the Terak 8510/a as well.
-Excellent work and thank you for keeping my copyright intact!
+Elektronika BK-0010 family and there is the mention of the Terak 8510/a as well.
 
 Another amazing project I found is [bkunix](https://sourceforge.net/projects/bkunix/),
 a Port of LSX Unix to Elektronika BK-0010 microcomputer.
 
-Both are available on GitHub as well:
+Both are available on GitHub:
   * https://github.com/emestee/bk-emulator
   * https://github.com/sergev/bkunix
